@@ -12,7 +12,7 @@ terraform {
 terraform {
   backend "s3" {
     bucket = "jenkins-44"
-    key = "terraform"/terraform.tfstate
+    key = "terraform/terraform.tfstate"
     region = "us-east-2"
     dynamodb_table = "terraform"
   }
